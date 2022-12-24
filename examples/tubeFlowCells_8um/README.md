@@ -1,4 +1,4 @@
-# How to run the embolism code
+# How to run the TubeFlow code
 
 The embolism example is tested with the following versions:
 - Palabos (https://gitlab.com/unigespc/palabos): \
@@ -19,6 +19,6 @@ When in `InsituBloodFlow/rbc`: \
 `make yes-<packagename>`\
 5. Compile lammps as a library, go to `lammps/src`, type `make mpi mode=lib`. You will need to append `-std=c++11` flags in CCFLAGS in Makefile.mpi under lammps/src/MAKE folder.\
 6. go to `examples/tubeFlowCells_8um` and make a directory called `build`. **NOTE:** For running on your personnal computer the command `cmake ..` should be used. \
-7. A executable named `twoComponent` should now exist in the `tubeFlowCells_8um` directory. **NOTE:** For your personnal computer, use a command like this when in the embolism directory: `mpirun -np 4 embolism in.embolism`
+7. A executable named `twoComponent` should now exist in the `tubeFlowCells_8um` directory. **NOTE:** For your personnal computer, use a command like this when in the embolism directory: `mpirun -np 4 twoComponent in.lmp4cell 1`
 
 
