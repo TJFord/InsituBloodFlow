@@ -4,12 +4,12 @@ This example is without **in site** component.
 
 The embolism example is tested with the following versions:
 - Palabos (https://gitlab.com/unigespc/palabos): 
-`git clone git@gitlab.com:unigespc/palabos.git`
+#`git clone git@gitlab.com:unigespc/palabos.git`
 
 `git clone https://gitlab.com/unigespc/palabos.git` 
 
 - LAMMPS  (https://github.com/lammps/lammps): 
-`git clone git@github.com:lammps/lammps.git` 
+#`git clone git@github.com:lammps/lammps.git` 
 `git clone https://github.com/lammps/lammps.git` 
 
 - Make sure you have cmake (version 3.17.3), make (GNU Make 4.2.1), openmpi (Open MPI 4.0.3) installed. My tested version for each are listed in the parenthesis. Other versions may work but I haven't tested yet.
