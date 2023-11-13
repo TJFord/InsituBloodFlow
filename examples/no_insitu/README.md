@@ -4,15 +4,15 @@ This example is without **in site** component.
 
 The embolism example is tested with the following versions:
 - Palabos (https://gitlab.com/unigespc/palabos): 
-`git clone git@gitlab.com:unigespc/palabos.git` (clone with ssh)
-`git clone https://gitlab.com/unigespc/palabos.git` (clone with https)
+`git clone git@gitlab.com:unigespc/palabos.git` 
+`git clone https://gitlab.com/unigespc/palabos.git` 
 - LAMMPS  (https://github.com/lammps/lammps): 
-`git clone git@github.com:lammps/lammps.git` (clone with ssh)
-`git clone https://github.com/lammps/lammps.git` (clone with https)
+`git clone git@github.com:lammps/lammps.git` 
+`git clone https://github.com/lammps/lammps.git` 
 - Make sure you have cmake (version 3.17.3), make (GNU Make 4.2.1), openmpi (Open MPI 4.0.3) installed. My tested version for each are listed in the parenthesis. Other versions may work but I haven't tested yet.
  
 1. Clone the `InsituBloodFlow` repository. In `BloodFlow/sites/cooley.cmake`, there are a few file paths that need to be modified. This is only required for running embolism on Cooley
-`git clone https://github.com/TJFord/InsituBloodFlow.git` (clone with https)
+`git clone https://github.com/TJFord/InsituBloodFlow.git` 
 2. Embolism needs several files to be copied from `BloodFlow/rbc` to `lammps/src`. All the files need to be copied.  These all begin with fix. 
 When in `InsituBloodFlow/rbc`: 
  `cp * path/to/lammps/src`
